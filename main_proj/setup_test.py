@@ -11,7 +11,7 @@ from setuptools import setup
 # for path in sys.path:
 #     print(path)
 
-APP = ['rosterscraper_frontend.py']
+APP = ['rs_frontend_v3.py']
 DATA_FILES = [("fonts", ['fonts/BeVietnam-ExtraBold.ttf',
                          'fonts/BeVietnam-Regular.ttf',
                          'fonts/BeVietnam-SemiBold.ttf']),
@@ -19,7 +19,7 @@ DATA_FILES = [("fonts", ['fonts/BeVietnam-ExtraBold.ttf',
                           'assets/offlineRS_icon.icns'])]
 
 PACKAGES = ['bs4', 'PyQt6']
-MODULES = ['rosterscraper_backend']
+MODULES = ['rs_backend_v3']
 
 
 OPTIONS = {'iconfile':
@@ -32,7 +32,7 @@ OPTIONS = {'iconfile':
 
 setup(
     name="Examsoft RosterScraper",
-    version="2.0.02",
+    version="3.0.00",
     app=APP,
     packages=setuptools.find_packages(),
     include_package_data=True,

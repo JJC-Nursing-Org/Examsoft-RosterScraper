@@ -18,7 +18,7 @@ from PyQt6.QtGui import QFont, QFontDatabase, QIcon, QShowEvent
 from PyQt6.QtWidgets import QApplication, QPushButton, QFileDialog, QLabel, QVBoxLayout, \
     QHBoxLayout, QGridLayout, QWidget, QStackedWidget, QStackedLayout, QLineEdit, QTextEdit
 
-import rosterscraper_backend as esv
+from main_proj.testing_version import rosterscraper_backend as esv
 
 basedir = os.path.dirname(__file__)
 
