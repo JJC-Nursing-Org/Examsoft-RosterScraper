@@ -19,7 +19,10 @@ DATA_FILES = [("fonts", ['fonts/BeVietnam-ExtraBold.ttf',
                           'assets/offlineRS_icon.icns'])]
 
 PACKAGES = ['bs4', 'PyQt6']
-MODULES = ['rs_backend_v3']
+MODULES = ['backend/rs_orchestrator.py',
+           'backend/rs_extractors.py',
+           'backend/rs_utils.py',
+           'backend/rs_datamodel.py']
 
 
 OPTIONS = {'iconfile':
